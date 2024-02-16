@@ -318,7 +318,23 @@ nav .btn button{
 }
 #experts .expert-box .profile{
     background: #fafaf1;
-    padding: 30px 10px;
+    padding: 30px 10px; 
+}
+
+#experts .expert-box .profile button{
+    background: #232355;
+    border-radius: 50px;
+    padding: 10px 40px;
+    margin-top: 10px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white; 
+}
+#experts .expert-box .profile img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: 3px solid #232355;
+    filter: drop-shadow(6px 6px 5px rgb(0, 0, 0));
 }
 .pro-links{
     margin-top: 10px;
